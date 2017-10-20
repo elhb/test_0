@@ -6,7 +6,7 @@ module.exports = {
     entry: path.join(__dirname, 'client', 'js', 'index.js'),
 
     output: {
-        filename: 'bundle.js',
+        filename: path.join('js','bundle.js'),
         path: path.resolve(__dirname, 'dist'),
     },
 
@@ -24,7 +24,10 @@ module.exports = {
 
     plugins: [
                 new HtmlWebpackPlugin(
-                    title: 'test application 0'
+                    {
+                        filename: 'index.html',
+                        title: 'test application 0'
+                    }
                 )
             ]
 

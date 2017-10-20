@@ -2,8 +2,9 @@ from flask import Flask, render_template
 
 app = Flask(
         __name__,
-        static_folder="../client/dist",
-        template_folder="../client"
+        static_folder="../dist/",
+        static_url_path='',
+        template_folder="../dist/"
     )
 
 @app.route("/")
