@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "NA",
+  "main": "client/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elhb/test_0.git"
+  },
+  "author": "elhb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elhb/test_0/issues"
+  },
+  "homepage": "https://github.com/elhb/test_0#readme"
+}
