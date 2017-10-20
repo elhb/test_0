@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/elhb/test_0/issues"
   },
-  "homepage": "https://github.com/elhb/test_0#readme"
+  "homepage": "https://github.com/elhb/test_0#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "webpack": "^3.8.1"
+  }
 }
